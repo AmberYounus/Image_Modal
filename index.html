@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Modal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Image Modal</h2>
+    <p>
+      When the img modal is clicked, JavaScript is used to start it and display the
+      image that is now there.Also, the picture's "alt" attribute value is used as the image caption text inside the modal.
+    </p>
+
+    <img
+      src="img1.jpg"
+      id="myImg1"
+      alt="Green Grass Near Trees "
+      style="width: 100%; max-width: 350px ;position: absolute;
+      right: 577px;
+      top: 154px;"
+    />
+    
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
